@@ -1,3 +1,5 @@
+//UNIVERSAL : BASIC PROPERTIES FOR BODY
+
 * {
   margin: 0;
   padding: 0;
@@ -8,9 +10,6 @@ html {
   min-height: 100vh;
   overflow-x: hidden;
 }
-
-
-
 li {
   list-style: none;
 }
@@ -21,6 +20,7 @@ a {
 body {
   font-family: "Raleway", sans-serif;
 }
+
 //fonts 
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap");
