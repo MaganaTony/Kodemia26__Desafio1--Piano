@@ -724,8 +724,11 @@ body {
   .header__section .header__section--images {
     margin: 1px;
   }
-  .header__section .header__section--images .header__section--imgredes {
-    margin: 1px;
+  .header__section .header__section--imgredes {
+    position: sticky;
+    top: 0;
+    height: auto;
+    width: auto;
   }
   .section__buscando {
     flex-direction: column;
