@@ -3,6 +3,7 @@
         background-size:     cover;
         background-repeat:   no-repeat;
         width: 100vw;
+        height: auto;
         
       
         h2{
@@ -17,9 +18,10 @@
           color: white;
           margin-top: 10vh;
           padding-bottom: 3vh;
-          @extend %flexaround; 
+          display: flex;
+          justify-content: space-between;
           .modelo__ebony-text{
-            width: 40%;
+            width: 30%;
             h3{
               font-family: 'Abril Fatface' ;
               text-align: left;
@@ -72,23 +74,19 @@
           }
         }
         .modelo__ebony-image{
-          width: 40%;
-          height: 100%;
+          width: 50%;
           position: relative;
           .pianocafe_b1{
             position: absolute;
             left: 15%;
-            top: 140%;
           }
           .pianocafe_b2{
             position: absolute;
             left: 15%;
-            top: 140%;
           }
           .pianocafe{
             position: absolute;
             left: 15%;
-            top: 140%;
           }
         }
        }

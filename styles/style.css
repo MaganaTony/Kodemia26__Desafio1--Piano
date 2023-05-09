@@ -615,7 +615,7 @@ body {
     align-items: center;
     justify-content: center;
   }
-  footer section .footer__logos, footer section, .section__modelonuevo .modelo__ebony-container .modelo__ebony-text ul, .section__modelonuevo .modelo__ebony-container, .section__buscando .modelos .modelo__butterfly .data ul, .section__buscando .modelos {
+  footer section .footer__logos, footer section, .section__modelonuevo .modelo__ebony-container .modelo__ebony-text ul, .section__buscando .modelos .modelo__butterfly .data ul, .section__buscando .modelos {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -816,6 +816,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
+    height: auto;
   }
   .section__modelonuevo h2 {
     font-family: "Abril Fatface";
@@ -829,9 +830,11 @@ body {
     color: white;
     margin-top: 10vh;
     padding-bottom: 3vh;
+    display: flex;
+    justify-content: space-between;
   }
   .section__modelonuevo .modelo__ebony-container .modelo__ebony-text {
-    width: 40%;
+    width: 30%;
   }
   .section__modelonuevo .modelo__ebony-container .modelo__ebony-text h3 {
     font-family: "Abril Fatface";
@@ -879,24 +882,20 @@ body {
     width: 20vw;
   }
   .section__modelonuevo .modelo__ebony-image {
-    width: 40%;
-    height: 100%;
+    width: 50%;
     position: relative;
   }
   .section__modelonuevo .modelo__ebony-image .pianocafe_b1 {
     position: absolute;
     left: 15%;
-    top: 140%;
   }
   .section__modelonuevo .modelo__ebony-image .pianocafe_b2 {
     position: absolute;
     left: 15%;
-    top: 140%;
   }
   .section__modelonuevo .modelo__ebony-image .pianocafe {
     position: absolute;
     left: 15%;
-    top: 140%;
   }
   .section__contactanos {
     position: relative;
@@ -1132,7 +1131,7 @@ body {
     align-items: center;
     justify-content: center;
   }
-  footer section .footer__logos, footer section, .section__buscando .modelos, .section__buscando .modelos .modelo__butterfly .data ul, .section__modelonuevo .modelo__ebony-container, .section__modelonuevo .modelo__ebony-container .modelo__ebony-text ul {
+  footer section .footer__logos, footer section, .section__buscando .modelos, .section__buscando .modelos .modelo__butterfly .data ul, .section__modelonuevo .modelo__ebony-container .modelo__ebony-text ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
