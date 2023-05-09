@@ -1,1 +1,13 @@
-/*# sourceMappingURL=desktop.css.map */
+section.setion__buscando {
+  text-align: center;
+}
+section.setion__buscando h2 {
+  text-align: center;
+}
+
+div.modelo__butterfly {
+  background-color: #fff;
+  width: 250px;
+  height: 239px;
+  left: 49px;
+}/*# sourceMappingURL=desktop.css.map */
